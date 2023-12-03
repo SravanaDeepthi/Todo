@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: #ebb569;
+}
+
+h1 {
+    margin: 16px;
+    padding: 8px;
+    background-color: #0040ff;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #f69104;
+    text-align: center;
+}
+
+/* div {
+    align-items: center;
+    margin: 16px;
+    padding: 8px;
+    background-color: #0040ff;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+} */
+
+#container {
+    
+    margin: 24px;
+    padding: 24px;
+    color: white;
+    background-color: #929494;
+    border-radius: 8px;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.todo {
+    background-color: #0040ff;
+    margin: 16px;
+    padding: 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.list-items {
+    /* background-color: #88baf0; */
+    color: #0040ff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#input {
+    font-size: 17px;
+    padding-left: 12px;
+    color: white;
+    background-color: #0040ff;
+    border: none;
+    border-bottom: 1px solid #89b7ef;
+    border-left: 1px solid #89b7ef;
+}
+
+#btn {
+    font-size: 17px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #89b7ef;
+}
+
+ul li {
+    margin-bottom: 5px;
+    background-color: #88baf0;
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 12px 8px 12px 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
+ul li button {
+    color: white;
+    background-color: #0040ff;
+    position: absolute;
+    right: 30px;
+    font-size: 17px;
+    margin: 5px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
