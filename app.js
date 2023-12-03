@@ -1,8 +1,3 @@
-// $(window).on('load', function(){
-//     $('.Preloader-child').fadeOut();
-//     $('#preloader').delay(350).fadeOut();
-//   });
-
 const input = document.getElementById('input');
 const list = document.getElementById('ul');
 
