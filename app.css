@@ -65,6 +65,7 @@ h1 {
     -o-border-radius: 10px;
 }
 #input {
+    width: 100%;
     font-size: 17px;
     padding-left: 12px;
     color: white;
